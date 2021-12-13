@@ -1,0 +1,43 @@
+.head {
+  display: flex;
+  position: relative;
+  background: var(--v-light-gray-blue);
+  height: 43rem;
+}
+
+.head__images {
+  flex: 1;
+}
+
+.head__content {
+  margin: auto;
+  flex: 1;
+}
+
+.head__content-wrapper {
+  margin: 0 16rem;
+}
+
+.head__content-wrapper h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+
+.head__content-wrapper p {
+  margin-bottom: 2rem;
+  color: var(--gray-blue);
+}
+
+.head__background {
+  position: absolute;
+  top: -16rem;
+  right: -20rem;
+}
+
+.head__mockups {
+  position: absolute;
+  top: -8rem;
+  right: -10rem;
+}

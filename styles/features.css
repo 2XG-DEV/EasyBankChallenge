@@ -1,0 +1,46 @@
+.features {
+  background: var(--light-gray-blue);
+  padding: 0 16rem;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features__heading h2 {
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+
+.features__heading p {
+  color: var(--gray-blue);
+  margin-bottom: 2.5rem;
+}
+
+.features__list {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.features__list-item {
+  height: min-content;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.features__list-item img {
+  margin-bottom: 3rem;
+}
+
+.features__list-item h3 {
+  color: var(--dark-blue);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.features__list-item p {
+  color: var(--gray-blue);
+}
